@@ -1,7 +1,7 @@
 {
   "name": "sp",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -12,9 +12,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "concurrently": "^7.2.2",
     "serve": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelHauser/SP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoelHauser/SP/issues"
+  },
+  "homepage": "https://github.com/JoelHauser/SP#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
